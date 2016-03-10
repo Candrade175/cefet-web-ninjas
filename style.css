@@ -1,0 +1,77 @@
+a:active {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #E46922;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #B022E4;
+	text-decoration: none;
+}
+
+a:before {
+	content: url("img/globo.png");
+}
+
+body {
+	background-color: #E1EFFF;
+	background-image: url(img/espada.jpg);
+	background-position: 50px 60px;
+	background-repeat: repeat-y;
+	background-size: 300px;
+	height: 100%;
+	margin: 0px;
+	margin-left: 20%;
+	margin-right: 30%;
+}
+
+em[ID="NomePasso"] {
+	font-size: 20px;
+}
+
+em[ID="Nota"] {
+	opacity: 0.6;
+}
+
+h1 {
+	font-family: "Lucida Handwriting";
+	text-align: center;
+}
+
+h2 {
+	font-family: "Courier";
+}
+
+img[ID="1"] {
+	width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[ID="2"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+p {
+	text-align: justify;
+}
+
+strong[ID=NumPasso] {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 40px;
+}
